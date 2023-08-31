@@ -13,6 +13,9 @@ function AppLayout() {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
+              <NavLink to="/videos">Videos</NavLink>
+            </li>
+            <li>
               <NavLink to="/service">Service</NavLink>
             </li>
             <li>
