@@ -1,5 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import VideoPlayer from "./Components/VideoPlayer";
 
 function VideosDetails() {
   const location = useLocation();
@@ -12,7 +13,8 @@ function VideosDetails() {
         <div className="grid">
           <div className="video-player">
             <figure>
-              <img src={videodetail.thumbnailUrl} alt="" />
+              {/* <img src={videodetail.thumbnailUrl} alt="" /> */}
+              <VideoPlayer thumbnail={videodetail.thumbnailUrl} />
             </figure>
             <div className="video-text">
               <h3>{videodetail.title}</h3>
