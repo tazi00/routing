@@ -16,6 +16,9 @@ function AppLayout() {
               <NavLink to="/videos">Videos</NavLink>
             </li>
             <li>
+              <NavLink to="/tools">Tools</NavLink>
+            </li>
+            <li>
               <NavLink to="/service">Service</NavLink>
             </li>
             <li>
@@ -26,7 +29,9 @@ function AppLayout() {
       </header>
       <main>{<Outlet />}</main>
       <footer>
-        <p>Copy wright claim</p>
+        <p>&copy; 2023 Your Website Name</p>
+        <p>Contact: contact@example.com</p>
+        <p>Address: 123 Main Street, City, Country</p>
       </footer>
     </>
   );

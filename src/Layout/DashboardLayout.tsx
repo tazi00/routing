@@ -24,11 +24,6 @@ function DashboardLayout() {
             <li>
               <NavLink to="..">Back to home page</NavLink>{" "}
             </li>
-            <li>
-              <NavLink to=".." relative={"path"}>
-                Back to dashboard
-              </NavLink>{" "}
-            </li>
           </ul>
         </nav>
       </header>
